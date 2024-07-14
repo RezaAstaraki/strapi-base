@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_resumes",
+  "info": {
+    "singularName": "user-resume",
+    "pluralName": "user-resumes",
+    "displayName": "UserResume"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "themeColor": {
+      "type": "string",
+      "default": "#ff6666"
+    },
+    "summery": {
+      "type": "text"
+    },
+    "documentId": {
+      "type": "string"
+    },
+    "resumeId": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "string",
+      "required": true
+    },
+    "userName": {
+      "type": "string"
+    }
+  }
+}
