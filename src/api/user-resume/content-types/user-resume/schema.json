@@ -64,6 +64,9 @@
       "type": "component",
       "repeatable": true,
       "component": "skills.skills"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
